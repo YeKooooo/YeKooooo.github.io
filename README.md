@@ -1,4 +1,2 @@
-# 🎉 注册成功！
-
-✅ 恭喜你，账号已注册成功！  
-
+# ✅ All set!  
+Head back to **MEETPAL** and start meeting people around **LSE campus**.
