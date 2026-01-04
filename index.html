@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MEETPAL | 炫酷体验</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <div class="bg-gradient"></div>
+  <div class="bg-grid"></div>
+  <div class="floating-orb orb-1"></div>
+  <div class="floating-orb orb-2"></div>
+  <div class="floating-orb orb-3"></div>
+
+  <main class="page">
+    <header class="hero card-glow">
+      <div class="hero__eyebrow">MEETPAL 特别版</div>
+      <h1 class="hero__title">让页面瞬间 <span class="text-gradient">炫</span> 起来</h1>
+      <p class="hero__subtitle">极光渐变、霓虹线条与玻璃拟态，让你的想法在这里燃烧。灵动动效和沉浸布局让访客一眼惊艳。</p>
+      <div class="hero__actions">
+        <a class="btn btn-primary" href="#cta">立即感受</a>
+        <a class="btn btn-ghost" href="#features">看看亮点</a>
+      </div>
+      <div class="hero__stats">
+        <div class="chip">⚡ 极速体验</div>
+        <div class="chip">🌌 霓虹质感</div>
+        <div class="chip">🎨 视觉流动</div>
+      </div>
+    </header>
+
+    <section id="features" class="section">
+      <div class="section__head">
+        <p class="section__eyebrow">灵感快照</p>
+        <h2>沉浸式炫酷设计</h2>
+        <p class="section__desc">玻璃质感卡片 + 环形高光 + 微互动动画，用最轻的代码呈现最亮的效果。</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card card-glow">
+          <div class="icon-bubble">✨</div>
+          <h3>流动渐变</h3>
+          <p>多层渐变与模糊光晕叠加，打造空间纵深与极光氛围。</p>
+          <div class="tag">CSS only</div>
+        </article>
+        <article class="feature-card card-glow">
+          <div class="icon-bubble">🎛️</div>
+          <h3>微交互</h3>
+          <p>指针跟随光标、玻璃光影倾斜，为卡片增添呼吸般的动感。</p>
+          <div class="tag">Motion ready</div>
+        </article>
+        <article class="feature-card card-glow">
+          <div class="icon-bubble">🌈</div>
+          <h3>霓虹边框</h3>
+          <p>发光描边与斜切角细节，既赛博又干净，提升科技质感。</p>
+          <div class="tag">Neon frame</div>
+        </article>
+        <article class="feature-card card-glow">
+          <div class="icon-bubble">🪩</div>
+          <h3>玻璃拟态</h3>
+          <p>半透明玻璃面板 + 背景颗粒噪点，呈现质感与高级感。</p>
+          <div class="tag">Glass look</div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section rail">
+      <div class="rail__label">炫酷流程</div>
+      <div class="rail__content card-glow">
+        <div class="rail__item">
+          <div class="rail__dot"></div>
+          <div>
+            <p class="rail__eyebrow">STEP 01</p>
+            <h3>点亮极光</h3>
+            <p class="rail__desc">激活动感渐变与漂浮光球，营造宇宙级背景氛围。</p>
+          </div>
+        </div>
+        <div class="rail__item">
+          <div class="rail__dot"></div>
+          <div>
+            <p class="rail__eyebrow">STEP 02</p>
+            <h3>拉满质感</h3>
+            <p class="rail__desc">玻璃卡片 + 霓虹描边 + 粒子噪点，层层叠加更显高级。</p>
+          </div>
+        </div>
+        <div class="rail__item">
+          <div class="rail__dot"></div>
+          <div>
+            <p class="rail__eyebrow">STEP 03</p>
+            <h3>留下记忆</h3>
+            <p class="rail__desc">流畅 CTA 按钮与亮色标签，引导访客快速行动。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section stats">
+      <div class="stat card-glow">
+        <p class="stat__label">氛围指数</p>
+        <p class="stat__value">98%</p>
+        <p class="stat__hint">极光配色 + 霓虹描边</p>
+      </div>
+      <div class="stat card-glow">
+        <p class="stat__label">视觉层次</p>
+        <p class="stat__value">4.8 / 5</p>
+        <p class="stat__hint">多层玻璃 + 动效</p>
+      </div>
+      <div class="stat card-glow">
+        <p class="stat__label">交互细节</p>
+        <p class="stat__value">15+</p>
+        <p class="stat__hint">卡片倾斜、光标渐变</p>
+      </div>
+    </section>
+
+    <section id="cta" class="cta card-glow">
+      <div>
+        <p class="cta__eyebrow">准备好了</p>
+        <h2>一键切换炫酷模式</h2>
+        <p class="cta__desc">点击按钮，动态切换光效模式，体验不同的霓虹节奏。</p>
+        <div class="cta__actions">
+          <button id="mode-toggle" class="btn btn-primary">切换能量</button>
+          <button id="pulse" class="btn btn-ghost">感受律动</button>
+        </div>
+      </div>
+      <div class="cta__preview">
+        <div class="preview__ring"></div>
+        <div class="preview__badge">LIVE</div>
+        <div class="preview__glow"></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
